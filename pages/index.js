@@ -73,12 +73,18 @@ export default function Home() {
               <Row>
 
                 <Col md={5} sm={6} className={styles.img2}>
+                  <a className={styles.a1} target='#' href='http://gorbedan.ir/'>
+                    <img src='/dolfin.png' width="100%" height="250" />
+                  </a>
+                  <p className={styles.amooz}>دلفین گربدان</p>
+                </Col>
+
+                <Col md={5} sm={6} className={styles.img2}>
                   <a className={styles.a1} target='#' href='http://amoozeshgahjazire.ir/'>
                     <img src='/amoozesh.png' width="100%" height="250" />
                   </a>
                   <p className={styles.amooz}>آموزشگاه جزیره - قشم</p>
                 </Col>
-
 
                 <Col md={5} sm={6} className={styles.img2}>
                   <a className={styles.a1} target='#' href='http://pvcahmad.ir/'>
