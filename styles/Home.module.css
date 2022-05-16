@@ -11,6 +11,10 @@
 .navb:hover{
   background-color: rgb(33, 146, 52);
 }
+.contatext{
+  margin-top:70px;
+  margin-right: 0;
+}
 
 .ptext{
   margin-top: 40px;
@@ -61,7 +65,7 @@
 
 
 .home{
-  background-color: #14161ade;
+  background-color: #0d0d0ede;
   padding-bottom: 60px;
 }
 
@@ -86,9 +90,11 @@
 .pvc:hover{
   background-color: rgb(121, 70, 70);
 }
+
 .texti{
   text-align: center;
   height: 300px;
+  margin-top: 130px;
   padding: 30px;
   font-size: 1.1em;
   align-items: center;

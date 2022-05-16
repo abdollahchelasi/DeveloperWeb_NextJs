@@ -21,7 +21,7 @@ export default function Home() {
 
       <main className={styles.home}>
 
-        <Navbar bg="dark" variant='dark' expand="md">
+        <Navbar fixed="top" bg="dark" variant='dark' expand="md">
           <Container>
             <Navbar.Brand className={styles.iconn} href="#home">
             </Navbar.Brand>
@@ -37,10 +37,8 @@ export default function Home() {
             </Navbar.Collapse>
           </Container>
         </Navbar>
-
-        <Row >
-          <Col>
-            <div className={styles.im}>
+<Container className={styles.contatext}>
+<div className={styles.im}>
               <img width="100%" height='300px' src='/passdev.jpg' />
               <p className={styles.texti}>
                 <h5 className={styles.type}>عبدالله چلاسی</h5>
@@ -58,9 +56,8 @@ export default function Home() {
                 />
               </p>
             </div>
-          </Col>
-        </Row>
-
+        
+        </Container>
 
         <Container className={styles.pvcc} >
           <Row >
