@@ -2,7 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background-color: #0d0d0ede;
+  background-image: linear-gradient(to bottom right, rgb(22, 13, 24), rgb(13, 10, 27))
 }
 
 a {

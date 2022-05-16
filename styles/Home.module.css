@@ -65,7 +65,8 @@
 
 
 .home{
-  background-color: #0d0d0ede;
+  background-image: linear-gradient(to bottom right, rgb(22, 13, 24), rgb(13, 10, 27)
+  );
   padding-bottom: 60px;
 }
 
@@ -179,7 +180,7 @@
   margin-top: 30px;
   padding-top: 40px;
   color: aliceblue;
-  background-color: rgb(39, 36, 36);
+  background-image: linear-gradient(to bottom right, rgb(29, 21, 31), rgb(13, 10, 27))
 }
 .h2{
   background-color: rgb(81, 87, 80);
@@ -243,7 +244,7 @@
 }
 .abdollah{
   box-shadow: rgb(101, 247, 150) 1px 1px 6px;
-  background-color: rgb(14, 14, 26);
+  background-image: linear-gradient(to bottom right, rgb(22, 13, 24), rgb(13, 10, 27));
   border-radius: 4px;
   margin: 3px;
   padding: 1px;
