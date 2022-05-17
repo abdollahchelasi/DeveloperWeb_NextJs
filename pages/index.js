@@ -21,7 +21,7 @@ export default function Home() {
 
       <main className={styles.home}>
 
-        <Navbar fixed="top" bg="dark" variant='dark' expand="md">
+        <Navbar className={styles.navb} fixed="top" variant='dark' expand="md">
           <Container>
             <Navbar.Brand className={styles.iconn} href="#home">
             </Navbar.Brand>
