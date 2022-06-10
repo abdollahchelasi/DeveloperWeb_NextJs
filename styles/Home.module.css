@@ -6,7 +6,9 @@
 }
 
 .navbb{
-  background-color: rgb(37, 38, 39);
+  background-color: rgb(46, 46, 46);
+  margin: 3px;
+  border-radius: 3px;
 }
 .navbb:hover{
   background-color: rgb(26, 20, 20);
@@ -70,7 +72,10 @@
   
 }
 
-
+.imgdev{
+  width: 100%;
+  margin-bottom: 30px;
+}
 
 .home{
   background-color: #10222f ;
@@ -182,14 +187,13 @@
 
 }
 
-
-.foot{
-  
-  margin-top: 30px;
-  padding-top: 40px;
-  color: aliceblue;
-  background-image: linear-gradient(to bottom right, rgb(29, 21, 31), rgb(13, 10, 27))
+.foote{
+  background-color: rgba(29, 27, 27, 0.9);
+  height: 100%;
+  color: #f7f8f8;
 }
+
+
 .h2{
   background-color: rgb(81, 87, 80);
   box-shadow: aquamarine 1px 1px 3px;
@@ -199,6 +203,8 @@
   margin: 4px;
   text-align: center;
   box-shadow: azure 1px 1px 3px;
+  
+
   margin-top: 84px;
  
 }

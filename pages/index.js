@@ -56,9 +56,9 @@ export default function Home() {
             </Navbar.Collapse>
           </Container>
         </Navbar>
-        
-              <div className={styles.lin}>
-              <div className={styles.im}>
+
+        <div className={styles.lin}>
+          <div className={styles.im}>
             <p className={styles.texti}>
               <h5 className={styles.type}>عبدالله چلاسی</h5>
               <Typewriter
@@ -78,13 +78,21 @@ export default function Home() {
               />
             </p>
           </div>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#10222f" fill-opacity="1" d="M0,32L80,74.7C160,117,320,203,480,218.7C640,235,800,181,960,186.7C1120,192,1280,256,1360,288L1440,320L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>                    
-                </div>
-        
-                
-                
 
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path
+              fill="#10222f"
+              fill-opacity="1"
+              d="M0,32L80,74.7C160,117,320,203,480,218.7C640,235,800,181,960,186.7C1120,192,1280,256,1360,288L1440,320L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+            ></path>
+          </svg>
+        </div>
 
+       
+
+            
+          
+          
         <Container className={styles.pvcc}>
           <Row>
             
@@ -218,6 +226,9 @@ export default function Home() {
       </main>
 
       <footer className={styles.foot} id="call">
+                
+        <div className={styles.foote}>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#10222f" fill-opacity="1" d="M0,32L80,74.7C160,117,320,203,480,218.7C640,235,800,181,960,186.7C1120,192,1280,256,1360,288L1440,320L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
         <Container fluid>
           <Row>
             <Col sm={9} className={styles.foot1}>
@@ -290,6 +301,11 @@ export default function Home() {
             </Col>
           </Row>
         </Container>
+        </div>
+
+        
+
+        
       </footer>
     </>
   );
