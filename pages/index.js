@@ -30,7 +30,9 @@ export default function Home() {
           <Container>
             <Navbar.Brand className={styles.iconn} href="#home"></Navbar.Brand>
             <Navbar.Brand>
-              <img width={50} src="/devs.png" />
+              
+              <img className={styles.logoaa} src="/devs.png" />
+              
             </Navbar.Brand>
             <Navbar.Brand className="title" href="#home">
               {" "}
@@ -110,9 +112,11 @@ export default function Home() {
                     target="#"
                     href="http://gorbedan.ir/"
                   >
-                    <img src="/dolfin.png" width="100%" height="250" />
+                   
+                   <img src="/dolfin.png" width="100%" height="250" />
+                   <p className={styles.amooz}>دلفین گربدان</p>
+
                   </a>
-                  <p className={styles.amooz}>دلفین گربدان</p>
                 </Col>
 
                 <Col md={5} sm={6} className={styles.img2}>
@@ -122,8 +126,9 @@ export default function Home() {
                     href="http://amoozeshgahjazire.ir/"
                   >
                     <img src="/amoozesh.png" width="100%" height="250" />
+                    <p className={styles.amooz}>آموزشگاه جزیره - قشم</p>
+
                   </a>
-                  <p className={styles.amooz}>آموزشگاه جزیره - قشم</p>
                 </Col>
 
                 <Col md={5} sm={6} className={styles.img2}>
@@ -133,15 +138,16 @@ export default function Home() {
                     href="http://pvcahmad.ir/"
                   >
                     <img src="/pvc.png" width="100%" height="250" />
+                    <p className={styles.amooz}>خدمات پی وی سی - رمکان</p>
                   </a>
-                  <p className={styles.amooz}>خدمات پی وی سی - رمکان</p>
+                  
                 </Col>
               </Row>
             </Col>
           </Row>
 
           <Row>
-            <Col md={12} className={styles.tarhm} id="mob">
+            <Col md={12} className={styles.tarh} id="mob">
               <p>
                 {" "}
                 نمونه های <span style={{ color: "#31f91b " }}> موبایل</span>
@@ -149,31 +155,31 @@ export default function Home() {
             </Col>
             <Col md={12} className={styles.img1}>
               <Row>
-                <Col md={3} sm={6} className={styles.img3}>
+                <Col md={3} sm={6} className={styles.img4}>
                   <a target="#" href="a1.webp">
                     <img width="50%" src="/a1.webp" />
                   </a>
                 </Col>
 
-                <Col md={3} sm={6} className={styles.img3}>
+                <Col md={3} sm={6} className={styles.img4}>
                   <a target="#" href="a2.webp">
                     <img width="50%" src="/a2.webp" />
                   </a>
                 </Col>
 
-                <Col md={3} sm={6} className={styles.img3}>
+                <Col md={3} sm={6} className={styles.img4}>
                   <a target="#" href="a3.webp">
                     <img width="50%" src="/a3.webp" />
                   </a>
                 </Col>
 
-                <Col md={3} sm={6} className={styles.img3}>
+                <Col md={3} sm={6} className={styles.img4}>
                   <a target="#" href="a4.webp">
                     <img width="50%" src="/a4.webp" />
                   </a>
                 </Col>
 
-                <Col md={3} sm={6} className={styles.img3}>
+                <Col md={3} sm={6} className={styles.img4}>
                   <a target="#" href="a5.webp">
                     <img width="50%" src="/a5.webp" />
                   </a>

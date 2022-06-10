@@ -1,17 +1,21 @@
 
 #navb{
   text-align: center;
-  background-color: rgba(29, 27, 27, 0.9);
+  background-color: rgba(44, 219, 170, 0.9);
   
+}
+.logoaa{
+width: 90px;
 }
 
 .navbb{
-  background-color: rgb(46, 46, 46);
+  background-color: rgba(7, 37, 29, 0.9);
+  box-shadow: #f7f8f8 2px 2px 1px;
   margin: 3px;
   border-radius: 3px;
 }
 .navbb:hover{
-  background-color: rgb(26, 20, 20);
+  background-color: rgba(74, 107, 97, 0.9);
 }
 .lin{
   padding: 0;
@@ -19,7 +23,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url("https://wallpaperaccess.com/full/1947484.jpg");
+  background-image: url("../public/pasdevs.webp");
 }
 .contatext{
   margin-top:70px;
@@ -39,8 +43,9 @@
 }
 
  .amooz{
-   background-color: rgb(104, 172, 113);
+   background-color: rgb(29, 34, 29);
    border-radius: 2px;
+   color: rgb(255, 255, 255);
  }
 .a1{
   text-decoration-line: none;
@@ -126,12 +131,12 @@
   color: rgb(206, 211, 214);
 }
  .tarh{
-   background-color: rgb(69, 9, 109);
+  clip-path: polygon(0 0, 100% 0, 60% 0%, 100% 0, 100% 55%, 51% 99%, 0 59%);
+  background-color: #010c14;
    width: 50%;
    height: 50px;
    margin-top: 40px;
    margin-right: 25%;
-   border-radius: 4px;
    padding-top: 8px;
    box-shadow: rgb(7, 255, 255) 1px 1px 7px;
    margin-bottom: 5px;
@@ -144,42 +149,24 @@
 
 .img2{
   border-radius: 6px;
-  transform: skewY(190deg);
   margin-top: 25px;
+  clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+}
+
+
+
+
+
+.img4{
   
+  border-radius: 11px;
+  margin: 5px;
+  clip-path: polygon(100% 0%, 75% 50%, 50% 100%, 25% 100%, 0% 50%, 25% 0%);
+}
+.img4 img{
+  border-radius: 6px;
 }
 
-.img2 img{
-  border-radius: 6px;
-}
-.img2 :hover{
-  border-radius: 6px;
-  box-shadow: rgb(0, 255, 242) 1px 1px 7px;
-}
-
-.tarhm{
-  background-color: rgb(32, 77, 77);
-   width: 50%;
-   height: 50px;
-   margin-top: 40px;
-   margin-right: 25%;
-   border-radius: 4px;
-   padding-top: 8px;
-   box-shadow: rgb(7, 236, 7) 1px 1px 7px;
-   margin-bottom: 5px;
-}
-.img3{
-  border-radius: 6px;
-  transform: skewY(170deg);
-  margin-top: 5px;
-}
-.img3 img{
-  border-radius: 6px;
-}
-.img3 :hover{
-  border-radius: 6px;
-  box-shadow: rgb(0, 255, 242) 1px 1px 7px;
-}
 
 
 .navb{
@@ -188,7 +175,7 @@
 }
 
 .foote{
-  background-color: rgba(29, 27, 27, 0.9);
+  background-color: rgba(20, 90, 70, 0.9);
   height: 100%;
   color: #f7f8f8;
 }
