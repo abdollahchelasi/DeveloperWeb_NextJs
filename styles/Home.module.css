@@ -33,12 +33,14 @@ width: 90px;
 .ptext{
   margin-top: 40px;
   font-size: 25px;
+  width: 250px;
   border-radius: 3px;
-  box-shadow: white 2px 2px 5px;
+  background-color: rgb(4, 99, 78);
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
   color:white;
 }
 .ptext:hover{
-  background-color: rgb(48, 95, 95);
+  background-color: rgb(70, 214, 183);
   border-radius: 3px;
 }
 
