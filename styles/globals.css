@@ -2,7 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background-image: linear-gradient(to bottom right, rgb(22, 13, 24), rgb(13, 10, 27))
+  background-image: linear-gradient(to bottom right, rgb(17, 17, 17), rgb(23, 22, 26))
 }
 
 a {
@@ -11,6 +11,8 @@ a {
 }
 
 * {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
   font-family: 'Lalezar',cursive;
   font-weight: bold;
