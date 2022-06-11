@@ -206,7 +206,7 @@ export default function Home() {
               </Col>
 
               <Col className={styles.colabdol}>
-                <p>
+                <p className={styles.tarah}>
                   طراح و برنامه نویس :
                   <p className={styles.abdollah}>عبدالله چلاسی</p>
                 </p>
