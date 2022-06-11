@@ -192,11 +192,10 @@ width: 90px;
 
 
 .h2{
-  width: 50%;
-  height: 50px;
-  margin-right: 130px;
+  width: 70%;
+  height: 90px;
+  margin-right: 30px;
   background-color: rgb(23, 56, 105);
-  box-shadow: aquamarine 1px 1px 3px;
   clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
 
 }
@@ -228,7 +227,10 @@ width: 90px;
   clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 
 }
-
+.mario{
+  clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+margin-top: 10px;
+}
 
 .colabdol{
   margin-top: 52px;

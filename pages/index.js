@@ -183,7 +183,24 @@ export default function Home() {
                     <img width="50%" src="/a5.webp" />
                   </a>
                 </Col>
+                <Col md={3} sm={3} className={styles.img4}>
+                  
+          
+                </Col>
+
+                <Col md={6} sm={6} className={styles.mario}>
+                  <a
+                    className={styles.a1}
+                    target="#"
+                    href="http://abdollahchelasi.ir/mario.apk"
+                  >
+                    <img src="https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,w_819,h_460/https://dashboard.snapcraft.io/site_media/appmedia/2021/05/screenshot-2020-09-17_18.01.12.853.png" width="100%" height="250" />
+                    <p className={styles.amooz}>دانلود بازی ماریو قشمی</p>
+                  </a>
+                  
+                </Col>
               </Row>
+              
 
               <a
                 className={styles.a1}
