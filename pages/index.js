@@ -28,8 +28,8 @@ export default function Home() {
       <main className={styles.home}>
         <Navbar id={styles.navb} fixed="top" variant="dark" expand="md">
           <Container>
-            <Navbar.Brand className={styles.iconn} href="#home"></Navbar.Brand>
-            <Navbar.Brand>
+            <Navbar.Brand  className={styles.iconn} href="#home"></Navbar.Brand>
+            <Navbar.Brand id={styles.ico}>
               
               <img className={styles.logoaa} src="/devs.png" />
               
@@ -155,31 +155,31 @@ export default function Home() {
             </Col>
             <Col md={12} className={styles.img1}>
               <Row>
-                <Col md={3} sm={6} className={styles.img4}>
+                <Col md={3} sm={3} className={styles.img4}>
                   <a target="#" href="a1.webp">
                     <img width="50%" src="/a1.webp" />
                   </a>
                 </Col>
 
-                <Col md={3} sm={6} className={styles.img4}>
+                <Col md={3} sm={3} className={styles.img4}>
                   <a target="#" href="a2.webp">
                     <img width="50%" src="/a2.webp" />
                   </a>
                 </Col>
 
-                <Col md={3} sm={6} className={styles.img4}>
+                <Col md={3} sm={3} className={styles.img4}>
                   <a target="#" href="a3.webp">
                     <img width="50%" src="/a3.webp" />
                   </a>
                 </Col>
 
-                <Col md={3} sm={6} className={styles.img4}>
+                <Col md={3} sm={3} className={styles.img4}>
                   <a target="#" href="a4.webp">
                     <img width="50%" src="/a4.webp" />
                   </a>
                 </Col>
 
-                <Col md={3} sm={6} className={styles.img4}>
+                <Col md={3} sm={3} className={styles.img4}>
                   <a target="#" href="a5.webp">
                     <img width="50%" src="/a5.webp" />
                   </a>

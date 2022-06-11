@@ -1,21 +1,23 @@
 
 #navb{
   text-align: center;
-  background-color: rgba(44, 219, 170, 0.9);
-  
+  background-color: rgba(17, 24, 46, 0.836);
+  /* background-color: #10222f ; */
+  box-shadow: #f7f8f8 1px 1px 1px;
+
 }
 .logoaa{
 width: 90px;
 }
 
 .navbb{
-  background-color: rgba(7, 37, 29, 0.9);
-  box-shadow: #f7f8f8 2px 2px 1px;
+  background-color: rgba(17, 24, 46, 0.836);
+  box-shadow: #0550a5 1px 1px 3px;
   margin: 3px;
   border-radius: 3px;
 }
 .navbb:hover{
-  background-color: rgba(74, 107, 97, 0.9);
+  background-color: rgba(2, 9, 29, 0.9);
 }
 .lin{
   padding: 0;
@@ -68,6 +70,12 @@ width: 90px;
   box-shadow: aliceblue 1px 1px 5px;
   border-radius: 5px;
   padding: 3px;
+}
+#ico{
+  padding: 9px;
+  background-image: linear-gradient(to bottom right, rgb(105, 93, 218), rgb(8, 38, 104));
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+
 }
 .iconn{
   box-shadow: aliceblue 1px 1px 4px;
