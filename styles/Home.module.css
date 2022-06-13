@@ -7,7 +7,8 @@
 
 }
 .logoaa{
-width: 90px;
+width: 50px;
+
 }
 
 .navbb{
@@ -72,11 +73,15 @@ width: 90px;
   padding: 3px;
 }
 #ico{
-  padding: 9px;
+  border-style: dotted;
+  border-color: #ece06f;
   background-image: linear-gradient(to bottom right, rgb(105, 93, 218), rgb(8, 38, 104));
-  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-
+  clip-path: polygon(42% 3%, 1% 100%, 36% 100%, 38% 53%, 43% 29%, 65% 56%, 31% 57%, 87% 99%, 100% 100%, 42% 3%);
 }
+#ico :hover{
+  background-color: #fbfdff;
+}
+
 .iconn{
   box-shadow: aliceblue 1px 1px 4px;
   
