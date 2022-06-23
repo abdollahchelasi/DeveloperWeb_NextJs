@@ -222,6 +222,7 @@ export default function Home() {
               >
                 <p className={styles.ptext}>دیگر برنامه ها</p>
               </a>
+              
             </Col>
           </Row>
         </Container>
