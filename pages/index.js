@@ -122,6 +122,19 @@ export default function Home() {
                   <a
                     className={styles.a1}
                     target="#"
+                    href="https://talebwifi.netlify.app/"
+                  >
+                   
+                   <img src="/taleb.png" width="100%" height="250" />
+                   <p className={styles.amooz}>خدمات اینترنتی طالب</p>
+
+                  </a>
+                </Col>
+
+                <Col md={5} sm={6} className={styles.img2}>
+                  <a
+                    className={styles.a1}
+                    target="#"
                     href="http://amoozeshgahjazire.ir/"
                   >
                     <img src="/amoozesh.png" width="100%" height="250" />
