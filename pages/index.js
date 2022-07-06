@@ -122,7 +122,7 @@ export default function Home() {
                   <a
                     className={styles.a1}
                     target="#"
-                    href="https://roz.netlify.app/"
+                    href="https://roz.vercel.app/"
                   >
                    
                    <img src="/tala.png" width="100%" height="250" />
@@ -135,7 +135,7 @@ export default function Home() {
                   <a
                     className={styles.a1}
                     target="#"
-                    href="https://talebwifi.netlify.app/"
+                    href="https://taleb.vercel.app/"
                   >
                    
                    <img src="/taleb.png" width="100%" height="250" />
