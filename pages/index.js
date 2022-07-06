@@ -122,6 +122,19 @@ export default function Home() {
                   <a
                     className={styles.a1}
                     target="#"
+                    href="https://roz.vercel.app/"
+                  >
+                   
+                   <img src="/tala.png" width="100%" height="250" />
+                   <p className={styles.amooz}>جواهری رز - قشم</p>
+
+                  </a>
+                </Col>
+
+                <Col md={5} sm={6} className={styles.img2}>
+                  <a
+                    className={styles.a1}
+                    target="#"
                     href="https://talebwifi.netlify.app/"
                   >
                    
